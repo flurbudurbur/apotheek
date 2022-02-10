@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php include './pages/head.php' ;?>
+        <?php include 'pages/head.php' ;?>
         <title>Schut Huisartsen praktijk</title>
         <meta name="desctiption" content="placeholder text :D">
     </head>
