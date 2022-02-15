@@ -3,13 +3,27 @@
 :root {
     --bg-color: #161688;
     --text-color: white;
-    --btn-highlight: rgb(45, 45, 163);
+    --btn-highlight: rgb(20, 181, 209);
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
+}
+
+.title {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    max-width: max-content;
+    margin: 0px;
+    align-self: center;
+    font-size: 500%;
+    margin:  0 auto;
 }
 
 .logo {
@@ -48,46 +62,32 @@ li .btn {
 
 li .btn:hover {
     animation-name: fadeout;
-    animation-duration: 300ms;
+    animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
 
 @keyframes fadeout {
-    0% {
-        background-color: none;
-    }
-    100% {
-        background-color: rgb(20, 181, 209);
-    }
+    from {background-color: none;}
+    to {background-color: var(--btn-highlight);}
 }
 
 @keyframes fadein {
-    0% {
-        background-color: rgb(20, 181, 209);
-    }
-    100% {
-        background-color: none;
-    }
+    from {background-color: var(--btn-highlight);}
+    to {background-color: none;}
 }
 
 /* MAP CSS */
 
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:300px;
-    width:300px;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:300px;
-    width:300px;
+iframe.gmaps {
+    height: 300px;
+    width: 300px;
+    border: 0;
 }
 
 /* BODY CSS */
 
 .gallery {
-    
+    display: flex;
+    flex-direction: row;
+    padding: 5vh 1vh;
 }
