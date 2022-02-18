@@ -76,6 +76,18 @@ li .btn:hover {
     to {background-color: none;}
 }
 
+/* BODY CSS */
+
+article {
+    padding: 5vh 5vw;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* MAP CSS */
 
 iframe.gmaps {
@@ -84,10 +96,21 @@ iframe.gmaps {
     border: 0;
 }
 
-/* BODY CSS */
+/* SLIDESHOW CSS */
 
-.gallery {
-    display: flex;
-    flex-direction: row;
-    padding: 5vh 1vh;
+.slideshow {
+    background-color: red;
+    width: 70vw;
 }
+
+/* SERVICE CSS */
+
+.service {
+    height: 300px;
+    background: rgb(22,22,136);
+    background: linear-gradient(180deg, rgba(22,22,136,1) 0%, rgba(61,147,205,1) 100%);
+    margin-top: 5vh;
+    border-radius: 5px;
+    display: flex;
+}
+
