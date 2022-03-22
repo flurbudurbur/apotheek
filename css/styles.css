@@ -66,6 +66,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+.activated {
+    background-color: var(--btn-highlight);
+}
+
 @keyframes fadeout {
     from {background-color: none;}
     to {background-color: var(--btn-highlight);}
@@ -128,26 +132,25 @@ iframe.gmaps {
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.open {
+/* .open {
     display: flex;
     justify-content: space-evenly;
-    /* max-width: 50%; */
-}
+} */
 
-.open h1 {
+.info h1 {
     font-size: xx-large;
     text-align: center;
     align-self: center;
 }
 
-.open p {
+.info p {
     width: 20vw;
 }
 
-.open u {
+.info u {
     font-size: large;
     font-weight: bold;
 }
