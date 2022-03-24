@@ -7,6 +7,7 @@
         <li>
             <a class="btn <?php if($page == 'home'){echo 'activated';}else{echo '';};?>" href="index.php">Home</a>
             <a class="btn <?php if($page == 'service'){echo 'activated';}else{echo '';};?>" href="service.php">Service</a>
+            <a class="btn <?php if($page == 'contact'){echo 'activated';}else{echo '';};?>" href="contact.php">Contact</a>
             <a class="btn <?php if($page == 'voorlichting'){echo 'activated';}else{echo '';};?>" href="voorlichting.php">Voorlichting</a>
             <a class="btn <?php if($page == 'mapo'){echo 'activated';}else{echo '';};?>" href="mapo.php">Mijn APO</a>
         </li>

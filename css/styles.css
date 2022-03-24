@@ -66,9 +66,7 @@ body {
     animation-fill-mode: forwards;
 }
 
-.activated {
-    background-color: var(--btn-highlight);
-}
+.activated {background-color: var(--btn-highlight);}
 
 @keyframes fadeout {
     from {background-color: none;}
@@ -82,9 +80,7 @@ body {
 
 /* BODY CSS */
 
-article {
-    padding: 5vh 5vw;
-}
+article {padding: 5vh 5vw;}
 
 .gallery {
     display: flex;
@@ -146,11 +142,32 @@ iframe.gmaps {
     align-self: center;
 }
 
-.info p {
-    width: 20vw;
-}
+.info p {width: 20vw;}
 
 .info u {
     font-size: large;
     font-weight: bold;
 }
+
+tr {padding-right: 30px;}
+
+tr:nth-of-type(even) {
+    background: rgb(22,202,224);
+    background: linear-gradient(90deg, rgba(22,202,224,1) 0%, rgba(74,157,215,0) 100%);
+}
+
+tr:nth-of-type(odd) {
+    background: rgb(22,175,224);
+    background: linear-gradient(90deg, rgba(22,175,224,1) 0%, rgba(74,157,215,0) 100%);
+}
+
+table {
+    border-spacing: 0;
+    width: 50%;
+}
+
+th:nth-of-type(1), td:nth-last-of-type(1) {min-width: auto;}
+
+th, td {text-align: left;}
+
+th {font-size: larger;}
