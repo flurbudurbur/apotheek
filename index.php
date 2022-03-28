@@ -35,7 +35,9 @@
                     <?php if($day == 6) {echo '<u>';} else {echo '';} ?>Zaterdag: 12:00 - 17:00<?php if ($day == 6) {echo '</u>';} else {echo '';} ?><br/>
                     <?php if($day == 7) {echo '<u>';} else {echo '';} ?>Zondag: Gesloten<?php if ($day == 7) {echo '</u>';} else {echo '';} ?>
                 </p>
-                <p>Hofstraat 13<br/>1741 CD, Schagen</p>
+            </div>
+            <div class="news">
+                <?php include './php/include/news.inc.php' ;?>
             </div>
         </article>
     </body>

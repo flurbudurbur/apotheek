@@ -171,3 +171,37 @@ th:nth-of-type(1), td:nth-last-of-type(1) {min-width: auto;}
 th, td {text-align: left;}
 
 th {font-size: larger;}
+
+/* News */
+
+.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-content: center;
+    align-items: center;
+}
+
+.news-image {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: calc(16/9);
+}
+
+.news-title {
+    text-align: center;
+    margin: 0.5em;
+}
+
+.news-desc {
+    margin: 0 0.5em;
+    max-height: 76px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
