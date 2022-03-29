@@ -14,9 +14,9 @@
         <?php include './php/include/header.php'; ?>
     </header>
     <article>
-        <form action="" method="post">
+        <form action="./php/send.php" method="post">
             <label for="id-aanheffing">Aanheffing</label>
-            <select name="aanheffing" id="id-aanheffing">
+            <select name="aanhef" id="id-aanheffing">
                 <option value="heer">Heer</option>
                 <option value="mevrouw">Mevrouw</option>
                 <option value="alt">Geen</option>
@@ -27,23 +27,9 @@
             <input type="text" name="lname" id="id-lname" required><br />
             <label for="id-email">Email</label>
             <input type="email" name="email" id="id-email" required><br />
-            <label for=""></label>
-            <!-- Include stylesheet -->
-            <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-            <!-- Create the editor container -->
-            <div id="editor">
-                <p>Hello World!</p>
-                <p>Some initial <strong>bold</strong> text</p>
-                <p><br></p>
-            </div>
-            <!-- Include the Quill library -->
-            <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-            <!-- Initialize Quill editor -->
-            <script>
-                var quill = new Quill('#editor', {
-                    theme: 'snow'
-                });
-            </script>
+            <label for="id-text"></label>
+            <textarea name="text" id="id-text" cols="30" rows="10"></textarea>
+            <input type="submit" value="Verstuur">
         </form>
         <a href="mailto:259901@cursist.rockopnh.nl">Stuur een mail</a>
     </article>
