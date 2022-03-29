@@ -120,8 +120,11 @@ iframe.gmaps {
     color: var(--text-color);
     text-decoration: none;
     font-size: xx-large;
-    padding: 5vw;
-    border-radius: 125px;
+    padding: 2vw;
+    border-radius: 25px;
+    text-align: center;
+    width: 30%;
+    max-height: 240px;
 }
 
 /* INFO CSS */
@@ -130,11 +133,6 @@ iframe.gmaps {
     display: flex;
     justify-content: space-evenly;
 }
-
-/* .open {
-    display: flex;
-    justify-content: space-evenly;
-} */
 
 .info h1 {
     font-size: xx-large;
@@ -178,6 +176,7 @@ th {font-size: larger;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 5vh;
 }
 
 .news-article {

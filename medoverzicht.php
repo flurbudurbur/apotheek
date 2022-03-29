@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php
-            $page = 'medoverzicht';
-            include 'pages/head.php';
-            // include './php/db_connection.php';
-            
-        ?>
+        <?php $page = 'medoverzicht'; ?>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <title>Schut Huisartsen Praktijk</title>
         <meta name="desctiption" content="placeholder text :D">
     </head>
     <body>
         <header>
-            <?php include './pages/header.php' ;?>
+            <?php include './php/include/header.php'; ?>
         </header>
         <article>
             <table>

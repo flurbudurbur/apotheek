@@ -2,17 +2,16 @@
 <html>
 
 <head>
-    <?php
-    include 'pages/head.php';
-    $page = 'contact';
-    ?>
+    <?php $page = 'contact'; ?>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Schut Huisartsen Praktijk</title>
     <meta name="desctiption" content="placeholder text :D">
 </head>
 
 <body>
     <header>
-        <?php include './pages/header.php'; ?>
+        <?php include './php/include/header.php'; ?>
     </header>
     <article>
         <form action="" method="post">
