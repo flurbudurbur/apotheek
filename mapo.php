@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <?php $page = 'mapo'; ?>
     <link rel="stylesheet" href="css/styles.css">
@@ -7,6 +8,7 @@
     <title>Schut Huisartsen Praktijk</title>
     <meta name="desctiption" content="placeholder text :D">
 </head>
+
 <body>
     <header>
         <?php include './php/include/header.php'; ?>
@@ -14,6 +16,9 @@
     <article>
 
     </article>
+    <footer>
+        <?php include 'php/include/footer.php'; ?>
+    </footer>
 </body>
 
 </html>

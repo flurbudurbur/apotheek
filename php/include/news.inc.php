@@ -1,7 +1,7 @@
 <?php
 
 //start database connection
-require_once $_SERVER["DOCUMENT_ROOT"] . '/apotheek/php/db_connection.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/apo-sebas/php/db_connection.php';
 $sql = "SELECT * FROM `news` ORDER BY `news`.`news_date` DESC LIMIT 3";
 $results = mysqli_query($conn, $sql);
 while ($data = mysqli_fetch_array($results)) {

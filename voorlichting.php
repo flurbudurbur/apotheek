@@ -14,5 +14,8 @@
         <article>
             
         </article>
+    <footer>
+        <?php include 'php/include/footer.php';?>
+    </footer>
     </body>
 </html>

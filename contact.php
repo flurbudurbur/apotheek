@@ -15,24 +15,40 @@
     </header>
     <article>
         <form action="./php/send.php" method="post">
-            <label for="id-aanheffing">Aanheffing</label>
-            <select name="aanhef" id="id-aanheffing">
-                <option value="heer">Heer</option>
-                <option value="mevrouw">Mevrouw</option>
-                <option value="alt">Geen</option>
-            </select><br />
-            <label for="id-name">Voornaam</label>
-            <input type="text" name="fname" id="id-fname" required><br />
-            <label for="id-lname">Achternaam</label>
-            <input type="text" name="lname" id="id-lname" required><br />
-            <label for="id-email">Email</label>
-            <input type="email" name="email" id="id-email" required><br />
-            <label for="id-text"></label>
-            <textarea name="text" id="id-text" cols="30" rows="10"></textarea>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><label for="id-aanheffing">Aanhef</label></td>
+                    <td><select name="aanhef" id="id-aanheffing">
+                        <option value="Dhr.">Dhr.</option>
+                        <option value="Mv.">Mv.</option>
+                        <option value="alt">Geen</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="id-name">Voornaam</label></td>
+                    <td><input type="text" name="fname" id="id-fname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id-lname">Achternaam</label></td>
+                    <td><input type="text" name="lname" id="id-lname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id-email">Email</label></td>
+                    <td><input type="email" name="email" id="id-email" required></td>
+                </tr>
+            </table>
+            <textarea name="text" id="id-text" cols="130" rows="25"></textarea><br />
             <input type="submit" value="Verstuur">
         </form>
         <a href="mailto:259901@cursist.rockopnh.nl">Stuur een mail</a>
     </article>
+    <footer>
+        <?php include 'php/include/footer.php';?>
+    </footer>
 </body>
 
 </html>

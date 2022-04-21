@@ -214,3 +214,10 @@ footer {
 
 /* Form */
 
+label {
+    margin-right: 10px;
+}
+
+select {
+    cursor: pointer;    
+}

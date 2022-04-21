@@ -39,7 +39,8 @@
         </div>
     </article>
     <footer>
-        <?php include 'php/include/footer.php';?>
+        <?php include 'php/include/footer.php'; ?>
     </footer>
 </body>
+
 </html>
